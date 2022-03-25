@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/chucknorris/static/css/main.7a3ae453.css",
-    "main.js": "/chucknorris/static/js/main.7a0c168e.js",
+    "main.js": "/chucknorris/static/js/main.d5874074.js",
     "static/js/787.e0a94f49.chunk.js": "/chucknorris/static/js/787.e0a94f49.chunk.js",
     "static/media/chucknorrisT.png": "/chucknorris/static/media/chucknorrisT.0171796635bfac183d73.png",
     "index.html": "/chucknorris/index.html",
     "main.7a3ae453.css.map": "/chucknorris/static/css/main.7a3ae453.css.map",
-    "main.7a0c168e.js.map": "/chucknorris/static/js/main.7a0c168e.js.map",
+    "main.d5874074.js.map": "/chucknorris/static/js/main.d5874074.js.map",
     "787.e0a94f49.chunk.js.map": "/chucknorris/static/js/787.e0a94f49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a3ae453.css",
-    "static/js/main.7a0c168e.js"
+    "static/js/main.d5874074.js"
   ]
 }
