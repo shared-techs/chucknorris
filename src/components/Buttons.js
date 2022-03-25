@@ -1,28 +1,23 @@
 import React from 'react';
-import './Buttons.css'
+import './Buttons.css';
 
-const Buttons = ({ onNewBtnClick, onPrevBtnClick })=> {
+const Buttons = ({ onNewBtnClick, onPrevBtnClick }) => {
 	return (
 		<div className='buttons pa2'>
-			<button
-				key='prevBtn'
-				className='ma2 pa3 ba b--dark-blue bg-lightest-blue'
-				type='button' 
+			<a
 				onClick={onPrevBtnClick}
-			>
-			Prev Joke
-			</button>		
+				className="ma2 pa3 f6 grow no-underline br-pill ba ph3 pv2 mb2 dib dark-green"
+				href="#0">Prev Joke
+			</a>
 
-			<button
-				key='nxtBtn'
-				className='ma2 pa3 ba b--dark-blue bg-lightest-blue'
-				type='button' 
+
+			<a
 				onClick={onNewBtnClick}
-			>
-			NewJoke
-			</button>
+				className="ma2 pa3 f6 grow no-underline br-pill ba ph3 pv2 mb2 dib dark-green"
+				href="#0">New Joke
+			</a>
 		</div>
 	);
-}
+};
 
 export default Buttons;
